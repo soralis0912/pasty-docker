@@ -5,3 +5,5 @@ services:
       - 19231:8080
     env_file:
       - .env
+    volumes:
+      - ./data/:/root/data
