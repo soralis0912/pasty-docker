@@ -1,0 +1,7 @@
+services:
+  pasty:
+    image: ghcr.io/lus/pasty:latest
+    ports:
+      - 19231:8080
+    env_file:
+      - .env
